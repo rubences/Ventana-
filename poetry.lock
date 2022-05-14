@@ -1,0 +1,33 @@
+[[package]]
+name = "customtkinter"
+version = "3.11"
+description = "Create modern looking gui with tkinter and python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+darkdetect = "*"
+
+[[package]]
+name = "darkdetect"
+version = "0.5.1"
+description = "Detect OS Dark Mode from Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "1ad04756afd46a6a797697a8b50b6e806e6fddd9196132bbd7e92fd27d9cf2ee"
+
+[metadata.files]
+customtkinter = [
+    {file = "customtkinter-3.11-py3-none-any.whl", hash = "sha256:b725c072c0ac02e77693c5b27a24beb25faa36dd19392e373536344e293d8528"},
+    {file = "customtkinter-3.11.tar.gz", hash = "sha256:137f1267c4cba16c77aea4d999cfed42e6a891e6b21bb8536c44b357e939667c"},
+]
+darkdetect = [
+    {file = "darkdetect-0.5.1-py3-none-any.whl", hash = "sha256:bd96c0239875e2b81c6e542a35299aab2b20c7290f97f7b01a206071908a12b3"},
+    {file = "darkdetect-0.5.1.tar.gz", hash = "sha256:cabe9837529fa305dba740561306a16def52351fa852e5955934fe2447be1785"},
+]
